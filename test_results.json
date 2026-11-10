@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Which trials could patient P001 join?",
+        "tool_used": "search_trials",
+        "answer": "**Potential trials for patient P001**\n\n| Trial ID | Title |\n|----------|-------|\n| T01 | Diabetes Study |\n\n**",
+        "correct_tool": true
+    },
+    {
+        "question": "Is patient P002 eligible for trial T03?",
+        "tool_used": "check_eligibility",
+        "answer": "Eligibility for patient P002 in trial T03 cannot be confirmed.  \n- Age requirement: Met  \n- Asthma status: Unknown  \n- Severe asthma hospital stay: Unknown  \n\nMore information is required.\n\nFinal decision rests with the clinician.",
+        "correct_tool": true
+    },
+    {
+        "question": "Why is patient P004 not eligible for trial T05?",
+        "tool_used": "check_eligibility",
+        "answer": "The tool indicates that the patient\u2019s eligibility cannot be determined because information about heart condition and recent heart surgery is missing. Therefore, we cannot confirm whether patient P004 is eligible for trial T05.\n\nFinal decision rests with the clinician.",
+        "correct_tool": true
+    },
+    {
+        "question": "Which trials are available for diabetes patients?",
+        "tool_used": "search_trials",
+        "answer": "- **T01**: Diabetes Study",
+        "correct_tool": true
+    },
+    {
+        "question": "Is patient P006 eligible for trial T01?",
+        "tool_used": "check_eligibility",
+        "answer": "The eligibility assessment for patient **P006** against trial **T01** yields the following results:\n\n| Criterion | Result | Reason |\n|-----------|--------|--------|\n| Age requirement | Met | Patient age falls within the trial\u2019s age range |\n| Has diabetes | **Unknown** | Patient has not disclosed diabetes status |\n| Can attend monthly visits | **Unknown** | Attendance information not provided |\n| Pregnant | **Unknown** | Pregnancy status not disclosed |\n| Severe kidney disease | **Unknown** | Kidney disease information missing |\n\n**Status**: *Cannot decide. More information needed.*\n\n**\n\nFinal decision rests with the clinician.",
+        "correct_tool": true
+    },
+    {
+        "question": "What medicine should patient P002 take?",
+        "tool_used": "none",
+        "answer": "I\u2019m sorry, but I can\u2019t provide that information.",
+        "correct_tool": true
+    }
+]

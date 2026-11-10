@@ -1,0 +1,32 @@
+[
+    {
+        "id": "P001",
+        "age": 52,
+        "note": "I have diabetes. I can attend monthly visits. I am not pregnant and have no kidney disease."
+    },
+    {
+        "id": "P002",
+        "age": 48,
+        "note": "I have high blood pressure. I do not have severe heart failure."
+    },
+    {
+        "id": "P003",
+        "age": 27,
+        "note": "I have asthma."
+    },
+    {
+        "id": "P004",
+        "age": 62,
+        "note": "I have sleep difficulties. I do not work night shifts."
+    },
+    {
+        "id": "P005",
+        "age": 50,
+        "note": "I have a heart condition. I have not shared details about recent surgery."
+    },
+    {
+        "id": "P006",
+        "age": 40,
+        "note": "I have not shared my diagnosis or medical history."
+    }
+]

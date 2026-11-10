@@ -1,0 +1,108 @@
+[
+    {
+        "id": "T01",
+        "title": "Diabetes Study",
+        "condition": "diabetes",
+        "min_age": 30,
+        "max_age": 70,
+        "include": [
+            "has diabetes",
+            "can attend monthly visits"
+        ],
+        "exclude": [
+            "pregnant",
+            "severe kidney disease"
+        ]
+    },
+    {
+        "id": "T02",
+        "title": "Blood Pressure Study",
+        "condition": "high blood pressure",
+        "min_age": 40,
+        "max_age": 75,
+        "include": [
+            "has high blood pressure"
+        ],
+        "exclude": [
+            "severe heart failure"
+        ]
+    },
+    {
+        "id": "T03",
+        "title": "Asthma Study",
+        "condition": "asthma",
+        "min_age": 18,
+        "max_age": 60,
+        "include": [
+            "has asthma"
+        ],
+        "exclude": [
+            "severe asthma hospital stay"
+        ]
+    },
+    {
+        "id": "T04",
+        "title": "Sleep Study",
+        "condition": "sleep problems",
+        "min_age": 21,
+        "max_age": 65,
+        "include": [
+            "has sleep difficulties"
+        ],
+        "exclude": [
+            "works night shifts"
+        ]
+    },
+    {
+        "id": "T05",
+        "title": "Heart Study",
+        "condition": "heart disease",
+        "min_age": 45,
+        "max_age": 80,
+        "include": [
+            "has a heart condition"
+        ],
+        "exclude": [
+            "recent heart surgery"
+        ]
+    },
+    {
+        "id": "T06",
+        "title": "Migraine Study",
+        "condition": "migraine",
+        "min_age": 18,
+        "max_age": 55,
+        "include": [
+            "has migraine"
+        ],
+        "exclude": [
+            "cannot describe headache history"
+        ]
+    },
+    {
+        "id": "T07",
+        "title": "Arthritis Study",
+        "condition": "arthritis",
+        "min_age": 35,
+        "max_age": 75,
+        "include": [
+            "has arthritis"
+        ],
+        "exclude": [
+            "recent joint replacement"
+        ]
+    },
+    {
+        "id": "T08",
+        "title": "Anemia Study",
+        "condition": "anemia",
+        "min_age": 18,
+        "max_age": 65,
+        "include": [
+            "has anemia"
+        ],
+        "exclude": [
+            "emergency blood transfusion"
+        ]
+    }
+]
