@@ -50,8 +50,4 @@ When asked, paste your Groq API key into the hidden prompt. The key is not saved
 
 The project also creates `trials.json`, `patients.json` and `test_questions.md`.
 
-## Important limitation
 
-This beginner version uses keyword search. It does **not** implement Sentence Transformers, embeddings or FAISS. If the assessment requires those items, they still need to be added before claiming full completion. The agent selects the local Python tools using simple ID checks; it does not use Groq's native function-calling API.
-
-This is an educational demo with fictional data, not a medical device. A clinician must make real eligibility decisions.
