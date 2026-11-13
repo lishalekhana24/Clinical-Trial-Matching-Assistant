@@ -1,4 +1,3 @@
-
 from data import trials, patients
 from sentence_transformers import SentenceTransformer
 import faiss
